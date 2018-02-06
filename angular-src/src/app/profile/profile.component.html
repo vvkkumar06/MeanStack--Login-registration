@@ -1,0 +1,12 @@
+<div *ngIf="user" class="card text-white bg-success mb-3" style="max-width: 20rem;">
+  <div class="card-header"> Welcome {{user.name}}!</div>
+  <div class="card-body">
+    <h4 class="card-title">Your Profile</h4>
+    <div class="card-text">
+        <ul class="list-group">
+          <li class="list-group-item">{{user.email}}</li>
+          <li class="list-group-item">{{user.userame}}</li>
+        </ul>
+      </div>
+  </div>
+</div>
